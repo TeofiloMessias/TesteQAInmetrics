@@ -12,7 +12,7 @@ public class TesteValidandoCampos {
 		System.setProperty("webdriver.chrome.driver", "./src\\main\\resources\\drives\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
-
+		//Finalizado em 18/02
 		driver.navigate().to("http://www.juliodelima.com.br/taskit");
 		driver.manage().window().maximize();
 		// acessar menu contatos
